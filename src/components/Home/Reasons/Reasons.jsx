@@ -22,7 +22,10 @@ const Reasons = () => {
         <span>Some Reasons</span>
         <div>
           {/* <div className="reason-heading"> */}
-          <div className="programs-header" style={{ gap: "1rem" }}>
+          <div
+            className="programs-header"
+            style={{ gap: "1rem", marginBottom: "1rem" }}
+          >
             <span className="stroke-text">Why </span>
             <span>Choose Us?</span>
           </div>
